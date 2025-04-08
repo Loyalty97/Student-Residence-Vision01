@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Student Residence</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('homepage-image.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fffdfd;
+      margin: 0;
+      padding: 0;
+    }
+
+    .about {
+      background-color: rgba(0, 0, 0, 0.65); /* Dark overlay for contrast */
+      max-width: 800px;
+      margin: 80px auto 20px;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(240, 15, 15, 0.5);
+      text-align: center;
+    }
+
+    .about h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #f1c40f;
+    }
+
+    .about p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .about ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .about li {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .back-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .back-arrow {
+      background-color: rgba(243, 8, 8, 0.7);
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      border: 1px solid #fff;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-arrow:hover {
+      background-color: rgba(52, 152, 219, 0.9);
+    }
+
+    @media (max-width: 768px) {
+      .about {
+        margin: 40px 20px;
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="about">
+    <h1>About Student Residence</h1>
+    <p>Our residence offers comfortable living for students with a variety of services:</p>
+    <ul>
+      <li><strong>Location:</strong> Conveniently located near the campus.</li>
+      <li><strong>Rooms:</strong> Single and double bed rooms available.</li>
+      <li><strong>Number of Rooms:</strong> 50 rooms available for students.</li>
+      <li><strong>Transportation:</strong> Transportation services available to and from campus.</li>
+      <li><strong>Owner:</strong> John Doe</li>
+    </ul>
+  </div>
+
+  <!-- Back Arrow Button -->
+  <div class="back-container">
+    <a href="index.html" class="back-arrow">&#8592; Back to Home</a>
+  </div>
+</body>
+</html>

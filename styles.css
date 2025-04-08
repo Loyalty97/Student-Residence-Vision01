@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Home Page (index.html) */
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: #f4f7fc;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .home .btn {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Rooms Page (rooms.html) */
+  .rooms {
+    text-align: center;
+    margin: 90px;
+  }
+  
+  .rooms h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .room-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .room-gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .room-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  .button-container {
+    margin-top: 40px;
+  }
+  
+  .button-container .btn {
+    margin: 10px;
+  }
+  
+  /* Reservation Page (reserve.html) */
+  .form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 50px auto;
+  }
+  
+  .form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  /* About Page (about.html) */
+  .about {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  .about li {
+    margin: 10px 0;
+  }
+  
+  .about li strong {
+    color: #3498db;
+  }
+  
+  /* Background images for different pages */
+.home-page {
+    background: url('homepage-image.PNG') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .rooms-page {
+    background: url('images/rooms-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .reserve-page {
+    background: url('images/reserve-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .about-page {
+    background: url('images/about-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  :root {
+    --ribbon-height: 150%;
+    --ribbon-width: 89%;
+    --ribbon-max-width: 700px;
+  }
+  
+  
